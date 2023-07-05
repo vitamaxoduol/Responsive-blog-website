@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Blog Website</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="./src/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Responsive Blog Website</h1>
+      <!-- Navigation links -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Create Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="featured-posts">
+        <h2>Featured Posts</h2>
+        <!-- Displaying featured blog posts -->
+        <article>
+          <h3>Featured Blog Post Title</h3>
+          <p>Summary of the blog post</p>
+          <img src="featured-image.png" alt="Featured Image" />
+          <a href="#">Read More</a>
+        </article>
+        <!-- More featured posts... -->
+      </section>
+      <section id="blog-listing">
+        <h2>All Blogs</h2>
+        <!-- Displaying a list of all blog posts -->
+        <article>
+          <h3>Blog Post Title 1</h3>
+          <p>Summary of the blog post</p>
+          <img src="blog-image.jpg" alt="Blog Image" />
+          <a href="#">Read More</a>
+        </article>
+        <!-- More blog posts ...-->
+      </section>
+
+      <section id="blog-post">
+        <h2>Blog Post Title</h2>
+        <!-- Display the full content of a blog post -->
+        <article>
+          <h3>Blog Post Title</h3>
+          <p>Full content of the blog post...</p>
+          <img src="blog-image.jpg" alt="Blog Image" />
+          <div class="comments">
+            <!-- Display comments for the blog post -->
+            <h4>Comments</h4>
+            <ul>
+              <li>Comment 1</li>
+              <li>Comment 2</li>
+              <!-- More comments... -->
+            </ul>
+          </div>
+        </article>
+      </section>
+      <section id="blog-editor">
+        <h2>Create a Blog</h2>
+        <!-- Blog creation form -->
+        <form>
+          <label for="title">Title</label>
+          <input type="text" id="title" name="title" />
+
+          <label for="content">Content</label>
+          <textarea id="content" name="content"></textarea>
+
+          <label for="image">Image</label>
+          <input type="file" id="image" name="image" />
+
+          <input type="submit" value="Publish" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Responsive Blog Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
