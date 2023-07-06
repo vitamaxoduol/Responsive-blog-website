@@ -1,0 +1,61 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Alumni Start-up Wins Mozilla Africa Innovation Grant",
+      "summary": "The grant is a milestone based Ksh 3.5 million and an additional Ksh 500,000 in technical support to further develop their innovative payment ...",
+      "content": "Payd, a startup which offers a payment platform for freelancers and creatives have won big at Mozilla’s Africa Mradi Innovation Challenge, a competition sponsored by Mozilla in partnership with Gladys Boss Shollei Foundation and Nairobi County. Payd is a startup by one of the two alumni learners at Power Learn Project, an impact organization dedicated to providing affordable and accessible tech training to youth across Africa. The Mozilla Africa Mradi Innovation Challenge aims to identify groundbreaking solutions that address perennial African problems and utilize technology to make a positive impact on communities. The competition comprised two tracks: the student track and the startup track. Payd applied for the startup track and successfully advanced to the final stages of the competition.",
+      "image": "https://ams1.vultrobjects.com/techmoran/2023/06/Start-ups-winners--1170x1132.jpeg"
+    },
+
+    {
+      "id": 2,
+      "title": "Daniel Ek’s Neko Health raises $65M for preventative healthcare through full-body scans",
+      "summary": "Neko Health, the health tech startup co-founded by Spotify co-creator Daniel Ek, has raised €60 million ($65 million) in its first external round of funding. The Series A round was led by Lakestar,...",
+      "content": "Neko Health, the health tech startup co-founded by Spotify co-creator Daniel Ek, has raised €60 million ($65 million) in its first external round of funding.The Series A round was led by Lakestar, with participation from Atomico and General Catalyst. Founded out of Sweden in 2018 by Ek and Hjalmar Nilsonne, Neko Health exited stealth back in February with the lofty promise of preventative healthcare via full-body scans backed by AI software that help doctors detect skin conditions including cancer, cardiovascular disease, diabetes, among other metabolic syndromes. Each scan apparently takes around 10 minutes and costs €250, according to the company, and is followed by an in-person consultation where the results are explained.",
+      "image": "https://techcrunch.com/wp-content/uploads/2023/02/neko-founders.jpeg?w=1390&crop=1"
+    },
+    {
+      "id": 3,
+      "title": "PharmEasy, once valued at over $5 billion, seeks new funding at a 90% valuation cut",
+      "summary": "Indian online pharmacy startup PharmEasy has informed its existing investors that it plans to raise about $300 million shortly in a new round of funding at a 90% markdown from the previous valuatio...",
+      "content": "Indian online pharmacy startup PharmEasy has informed its existing investors that it plans to raise about $300 million shortly in a new round of funding at a 90% markdown from the previous valuation, two people familiar with the matter said, at a time when some of its backers are pushing for the startup to explore a sale. Should PharmEasy succeed in securing the new funding, its valuation will also be notably lower than the total capital it has managed to raise over the years. PharmEasy, one of India’s largest pharmacy firms, is racing to raise the new capital to pay its lender Goldman Sachs, the person said. PharmEasy borrowed about $285 million from Goldman Sachs last year to pay off an earlier debt to move ahead with a majority stake acquisition of Thyrocare for over $600 million. The firm, which offers a range of services including tools and information on wellness, consultations, diagnostic and radiology tests and treatment deliveries, had filed for a $843 million IPO in November 2021, but later deferred the plan. Indian newspaper Economic Times first reported the development, while Moneycontrol said separately that healthcare group Manipal was looking to lead the $300 million funding into the startup. Some of the startup’s backers have been pushing it to sell the business for several quarters, according to three people familiar with the matter.",
+      "image": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-1255306308.jpg?w=1390&crop=1"
+    },
+    {
+      "id": 4,
+      "title": "After bootstrapping for 8 years, accounting startup Dougs raises $27 million",
+      "summary": "Dougs, a French accounting startup, has been around since 2015. It already generates $16.4 million (€15 million) in annual recurring revenue. And it’s a bootstrapped company, meaning that it hasn’t...",
+      "content": "Dougs, a French accounting startup, has been around since 2015. It already generates $16.4 million (€15 million) in annual recurring revenue. And it’s a bootstrapped company, meaning that it hasn’t opened its capital and raised any funding from VC firms. But now, the company has decided to raise its first founding round. Dougs raised $27 million (€25 million) from Expedition Growth Capital, a British VC firm that is looking for investment opportunities in bootstrapped companies that have reached a certain level of maturity. And Dougs seems to fit the bill quite well as the company has 14,000 clients and is already profitable. At its core, Dougs is an online chartered accountant service for small and medium companies. It handles your financial statements and generates certified tax filings. Behind the scenes, Dougs works with chartered accountants, legal experts, HR professionals, etc. But the company has also designed its own accounting application to improve the relationship between the Dougs team and its clients.",
+      "image": "https://techcrunch.com/wp-content/uploads/2023/07/Associes.jpg?w=730&crop=1"
+    },
+    {
+      "id": 5,
+      "title": "Farmers use tech too with Charles Baron from Farmers Business Network",
+      "summary": "Welcome back to Found, where we get the stories behind the startups. This week Becca and Dom are joined by Charles Baron, the co-founder and CMO at Farmers Business Network (FBN), a startup that of...",
+      "content": "This week Becca and Dom are joined by Charles Baron, the co-founder and CMO at Farmers Business Network (FBN), a startup that offers a suite of online services to farmers. Baron talked about what led him — a former venture capitalist — to want to build in the agtech space. He talked about why the company chose to expand into multiple verticals quickly and how big of a need there was for what FBN offers.",
+      "image": "https://techcrunch.com/wp-content/uploads/2022/05/found-2022-featured.jpg?w=730&crop=1"
+    },
+    {
+      "id": 6,
+      "title": "The five finalist startups pitching at the 2023 Visa Everywhere Initiative (VEI), Kenyan edition",
+      "summary": "Visa has announced the five finalists chosen for the final round of the 2023 Visa Everywhere Initiative (VEI)...",
+      "content": "The initiative, in partnership with Loop, a Kenyan money management platform, sought out entrepreneurs who are solving payment and commerce challenges faced by businesses of all sizes and sectors while uplifting communities. Since its launch in 2015, the VEI program has aided over 12,000 startups from 100 countries, collectively raising more than $16 billion in funding.",
+      "image": "https://ams1.vultrobjects.com/techmoran/2023/07/VEI.webp"
+    },
+    {
+      "id": 7,
+      "title": "Blockchain and Decentralized Applications",
+      "summary": "This is a very short introduction on how decentralized Apps aka “dApps” work and how they differ from regular Apps.…",
+      "content": "This is a very short introduction on how decentralized Apps aka “dApps” work and how they differ from regular Apps. The original and more detailed blogpost about this can be found on the website of the blockchain and web3 studio “blokk – beyond the chains.” ",
+      "image": "https://techmoran.com/wp-content/uploads/2021/09/blockchain_school_canvas_low.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Elon Musk’s mum is the new global ambassador for OPPO’s Find X6 Pro",
+      "summary": "Chinese smartphone brand OPPO has signed Maye Musk, the mother of Elon Musk, as the global ambassador for the brand’s flagship smartphone – Find X6 Pro.",
+      "content": "Maye is an accomplished model, appearing on Sports Illustrated’s swimsuit edition cover at 74 and recently attending New York Fashion Week – now leaked photos and videos of her Oppo ads have surfaced OPPO’s flagship product was launched in March and is already recognised as the best camera smartphone in the world with top-end specifications, beating Apple iPhone 14 Pro Max and Google Pixel 7 Pro. The 75-year-old model and dietitian will appear in a series of commercials and events to promote the Find X6 Pro, which is being touted as the best camera smartphone in the world. Photos from the first official shoot recently surfaced on the internet along with a video ad that was leaked on YouTube.",
+      "image": "https://c.ndtvimg.com/2022-08/aec9pg3o_elon-musk-maye-musk_625x300_28_August_22.jpg"
+    }
+  ]
+}
