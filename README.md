@@ -14,6 +14,10 @@ Run this command to get the backend started:
 ```sh
 json-server --watch db.json
 ```
+The GET fetch API used link was created locally:
+``````http://localhost:3000/blogs
+``````
+
 
 ## Deliverables
 1. When user click on a Read More button for a featured Post, it directs the user to Blog Post  section, where it displays its content

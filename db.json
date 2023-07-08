@@ -1,14 +1,6 @@
 {
   "blogs": [
     {
-      "id": 1,
-      "title": "Alumni Start-up Wins Mozilla Africa Innovation Grant",
-      "summary": "The grant is a milestone based Ksh 3.5 million and an additional Ksh 500,000 in technical support to further develop their innovative payment ...",
-      "content": "Payd, a startup which offers a payment platform for freelancers and creatives have won big at Mozilla’s Africa Mradi Innovation Challenge, a competition sponsored by Mozilla in partnership with Gladys Boss Shollei Foundation and Nairobi County. Payd is a startup by one of the two alumni learners at Power Learn Project, an impact organization dedicated to providing affordable and accessible tech training to youth across Africa. The Mozilla Africa Mradi Innovation Challenge aims to identify groundbreaking solutions that address perennial African problems and utilize technology to make a positive impact on communities. The competition comprised two tracks: the student track and the startup track. Payd applied for the startup track and successfully advanced to the final stages of the competition.",
-      "image": "https://ams1.vultrobjects.com/techmoran/2023/06/Start-ups-winners--1170x1132.jpeg"
-    },
-
-    {
       "id": 2,
       "title": "Daniel Ek’s Neko Health raises $65M for preventative healthcare through full-body scans",
       "summary": "Neko Health, the health tech startup co-founded by Spotify co-creator Daniel Ek, has raised €60 million ($65 million) in its first external round of funding. The Series A round was led by Lakestar,...",
@@ -56,6 +48,15 @@
       "summary": "Chinese smartphone brand OPPO has signed Maye Musk, the mother of Elon Musk, as the global ambassador for the brand’s flagship smartphone – Find X6 Pro.",
       "content": "Maye is an accomplished model, appearing on Sports Illustrated’s swimsuit edition cover at 74 and recently attending New York Fashion Week – now leaked photos and videos of her Oppo ads have surfaced OPPO’s flagship product was launched in March and is already recognised as the best camera smartphone in the world with top-end specifications, beating Apple iPhone 14 Pro Max and Google Pixel 7 Pro. The 75-year-old model and dietitian will appear in a series of commercials and events to promote the Find X6 Pro, which is being touted as the best camera smartphone in the world. Photos from the first official shoot recently surfaced on the internet along with a video ad that was leaked on YouTube.",
       "image": "https://c.ndtvimg.com/2022-08/aec9pg3o_elon-musk-maye-musk_625x300_28_August_22.jpg"
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
     }
   ]
 }

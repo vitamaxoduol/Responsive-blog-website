@@ -173,18 +173,16 @@ document.getElementById('blogForm').addEventListener('submit', async function(e)
   document.getElementById('imagePreview').src = "#";
 });
 
-
-
-
+// Handling featured post
 document.addEventListener('click', function(e) {
     if (e.target.classList.contains('read-more')) {
-        const postId = e.target.getAttribute('data-post-id');
+        const postId = e.target.getAttribute('data-id');
         displaySingleBlogPost(postId);
     }
 });
 
 function loadFeaturedBlogPost() {
-    fetch('http://localhost:3000/blogs/')
+    fetch('http://localhost:3000/blogs')
     .then(response => response.json())
     .then(posts => {
         // Assuming the first post is the featured one
@@ -202,7 +200,7 @@ function addFeaturedPostToUI(post) {
         <h3>${post.title}</h3>
         <p>${post.summary}</p>
         <img src="${post.image}" alt="${post.title}" />
-        <a href="#blog-post" class="read-more" data-post-id="${post.id}">Read More</a>
+        <a href="#blog-post" class="read-more" data-id="${post.id}">Read More</a>
     `;
 }
 
@@ -217,5 +215,63 @@ function displaySingleBlogPost(postId) {
         `;
     });
 }
+
+
+// Posting a created blog
+document.getElementById('blogForm').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  
+  const title = document.getElementById('title').value;
+  const summary = document.getElementById('summary').value;
+  const content = document.getElementById('content').value;
+  const imageFile = document.getElementById('image').files[0];
+
+  const formData = new FormData();
+  formData.append('title', title);
+  formData.append('summary', summary);
+  formData.append('content', content);
+  formData.append('image', imageFile);
+  
+  try {
+      const response = await fetch('http://localhost:3000/blogs', {
+          method: 'POST',
+          body: formData
+      });
+
+      if (response.ok) {
+          // Optionally, you can fetch and update the blog list again
+          fetchBlogs();
+          // Clear the form
+          e.target.reset();
+          document.getElementById('imagePreview').src = "#";
+      } else {
+          console.error('Failed to post the blog', response);
+      }
+  } catch (error) {
+      console.error('Error posting blog:', error);
+  }
+});
+
+
+// // Deleting a post from the server
+// document.addEventListener('click', function(event) {
+//   if (event.target.classList.contains('delete-btn')) {
+//       const id = event.target.getAttribute('data-id');
+
+//       fetch(`http://localhost:3000/blogs/${id}`, {
+//           method: 'DELETE',
+//       })
+//       .then(response => response.json())
+//       .then(data => {
+//           console.log('Success:', data);
+//           // Remove the blog post from the DOM
+//           const blogPostElement = document.getElementById(`blog-post-${id}`);
+//           blogPostElement.remove();
+//       })
+//       .catch((error) => {
+//           console.error('Error:', error);
+//       });
+//   }
+// });
 
 });

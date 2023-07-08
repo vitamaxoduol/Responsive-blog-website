@@ -157,27 +157,20 @@ article a {
 }
 
 /* Blog Editor styles */
-#blog-editor form label {
-    display: block;
-    margin-bottom: 5px
-}
-
-#blog-editor form input[type="text"],
-#blog-editor form textarea,
-#blog-editor form input[type="file"] {
+#title {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    /* font-size: 14px; */
-    /* padding: 5px; */
 }
 
-#blog-editor form input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
+#summary, #content {
+    width: 100%;
+}
+
+#summary {
+    height: 100px;
+}
+
+#content {
+    height: 200px;
 }
 
 /* Footer Styles */
