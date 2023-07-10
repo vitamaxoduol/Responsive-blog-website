@@ -73,7 +73,7 @@
 
       <section id="blog-post">
         <h2>Blog Post</h2>
-        <article>
+        <article id="single-blog-post">
           <!-- <h3>Blog Post</h3> -->
           <!-- <p>Full content of the blog post...</p> -->
           <!-- <img src="blog-image.jpg" alt="Blog Image" /> -->
@@ -91,8 +91,8 @@
           <label for="content">Content</label>
           <textarea id="content" name="content"></textarea>
 
-          <label for="image">Image:</label>
-          <input type="file" id="image" accept="image/*" />
+          <label for="image">Image URL:</label>
+          <input type="url" id="imageUrl" accept="imageUrl/*" />
           <img id="imagePreview" src="#" alt="Preview" />
 
           <input type="submit" value="Publish" />

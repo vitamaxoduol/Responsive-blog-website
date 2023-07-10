@@ -224,26 +224,29 @@ document.getElementById('blogForm').addEventListener('submit', async function(e)
   const title = document.getElementById('title').value;
   const summary = document.getElementById('summary').value;
   const content = document.getElementById('content').value;
-  const imageFile = document.getElementById('image').files[0];
+  const imageUrl = document.getElementById('imageUrl').value;
 
-  const formData = new FormData();
-  formData.append('title', title);
-  formData.append('summary', summary);
-  formData.append('content', content);
-  formData.append('image', imageFile);
+  const blogData = {
+    title,
+    summary,
+    content,
+    image: imageUrl
+  };
   
   try {
       const response = await fetch('http://localhost:3000/blogs', {
           method: 'POST',
-          body: formData
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(blogData)
       });
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
       if (response.ok) {
           // Optionally, you can fetch and update the blog list again
           fetchBlogs();
           // Clear the form
           e.target.reset();
-          document.getElementById('imagePreview').src = "#";
       } else {
           console.error('Failed to post the blog', response);
       }
@@ -274,4 +277,4 @@ document.getElementById('blogForm').addEventListener('submit', async function(e)
 //   }
 // });
 
-});
+})
