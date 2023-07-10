@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <button class="like-button" data-id="${blog.id}">Like <span class="like-count">0</span></button>
               <button class="dislike-button" data-id="${blog.id}">Dislike <span class="dislike-count">0</span></button>
               <a href="#blog-post" class="read-more" data-id="${blog.id}">Read More</a>
+
           `;
         blogListing.appendChild(article);
       });
@@ -256,25 +257,27 @@ document.getElementById('blogForm').addEventListener('submit', async function(e)
 });
 
 
-// // Deleting a post from the server
-// document.addEventListener('click', function(event) {
-//   if (event.target.classList.contains('delete-btn')) {
-//       const id = event.target.getAttribute('data-id');
+// Deleting a post from the server
+document.addEventListener('click', function(event) {
+  if (event.target.classList.contains('delete-btn')) {
+      const id = event.target.getAttribute('data-id');
 
-//       fetch(`http://localhost:3000/blogs/${id}`, {
-//           method: 'DELETE',
-//       })
-//       .then(response => response.json())
-//       .then(data => {
-//           console.log('Success:', data);
-//           // Remove the blog post from the DOM
-//           const blogPostElement = document.getElementById(`blog-post-${id}`);
-//           blogPostElement.remove();
-//       })
-//       .catch((error) => {
-//           console.error('Error:', error);
-//       });
-//   }
-// });
+      fetch(`http://localhost:3000/blogs/${id}`, {
+          method: 'DELETE',
+      })
+      .then(response => {
+          if (!response.ok) {
+              throw new Error('Network response was not ok');
+          }
+          console.log('Blog post deleted successfully');
+          // Remove the blog post from the DOM
+          const blogPostElement = document.getElementById(`blog-post-${id}`);
+          blogPostElement.remove();
+      })
+      .catch((error) => {
+          console.error('Error:', error);
+      });
+  }
+});
 
 })
